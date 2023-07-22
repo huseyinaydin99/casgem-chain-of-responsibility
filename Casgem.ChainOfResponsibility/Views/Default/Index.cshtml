@@ -1,0 +1,21 @@
+﻿@model Casgem.ChainOfResponsibility.ChainOfResponsibilityPattern.CustomerProcessViewModel;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="container">
+    <form method="post">
+        <table>
+            <tr>
+                <td>Müşteri Adı</td>
+                <td><input type="text" asp-for="CustomerName" /></td>
+            </tr>
+            <tr>
+                <td>Çekmek İstediğiniz Tutar</td>
+                <td><input type="text" asp-for="Amount" /></td>
+            </tr>
+        </table>
+        <button type="submit">Gönder</button>
+    </form>
+</div>
